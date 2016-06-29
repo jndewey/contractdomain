@@ -1,2 +1,2 @@
-# sample commercial loan commitment letter #
+# sample commercial mortgage loan commitment letter #
 

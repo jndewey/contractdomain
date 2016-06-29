@@ -1,0 +1,73 @@
+name:  CRE Commitment Letter
+description: This is a commercial mortgage commitment letter approved for use by Ocean Bank for non-construction, commercial mortgage loan transactions
+
+parameters:
+   - Borrower Name:
+      type: Array of Names
+
+   - Guarantor Name:
+      type: Array of Names
+
+   - Lender Name:
+      type: Name
+
+   - Loan Amount Written:
+      type: Loan in Dollars Written
+
+   - Loan Amount Numeric:
+      type: Loan in Dollars Numeric
+
+   - Effective Date Convertible Promissory Note Purchase Agreement:
+      type: Date 
+
+   - Maturity Date:
+      type: Date
+      default value: Effective Date + 2 weeks
+
+   - Interest Rate:
+      type: Number
+
+   - Qualified Financing Amount:
+      type: Price in dollar
+   
+   - Discount:
+      type: Number
+
+   - Valuation Cap:
+      type: Price in dollar
+
+   - Sale Multiple:
+      type: Number
+
+   - Petition Discharge:
+      type: number
+
+   - Governing Law State:
+      type: text
+
+clauses:
+   Convertible Promissory Note - Preamble:
+      Company Name: Company Name
+      Holder Name: Holder Name
+      Principle Sum: Principle Sum
+      Effective Date Convertible Promissory Note Purchase Agreement: Effective Date Convertible Promissory Note Purchase Agreement
+   Convertible Promissory Note - Repayment:
+      Maturity Date: Maturity Date
+   Convertible Promissory Note - Interest Rate
+      Interest Rate: Interest Rate
+   Convertible Promissory Note - Conversion
+      Qualified Financing Amount: Qualified Financing Amount 
+      Discount: Discount
+      Valuation Cap: Valuation Cap
+      Sale Multiple: Sale Multiple
+   Convertible Promissory Note - Maturity
+   Convertible Promissory Note - Expenses
+   Convertible Promissory Note - Prepayment
+   Convertible Promissory Note - Default
+      Petition Discharge: Petition Discharge
+   Convertible Promissory Note - Waiver
+   Convertible Promissory Note - Governing Law
+      Governing Law State: Governing Law State
+   Convertible Promissory Note - Parity with Other Notes
+   Convertible Promissory Note - Modification and Waiver
+   Convertible Promissory Note - Assignment
